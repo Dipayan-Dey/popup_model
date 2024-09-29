@@ -18,6 +18,8 @@ removeForm.addEventListener("click",remove);
  // show confrime notification
   
 var notification =()=>{
+      showOverLay.classList.remove("show-overlay");
+      showLoginForm.classList.remove("show-loginform");
     alert("Login Successfull. Your response has been recorded")
 }
 
